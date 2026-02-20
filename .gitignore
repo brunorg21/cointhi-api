@@ -1,6 +1,77 @@
-# Ignore Visual Studio temporary files, build results, and user-specific files
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio files
 .vs/
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# ASP.NET Core
+wwwroot/lib/
+
+# Publish output
+publish/
+*.publishproj
+*.azurePubxml
+*.pubxml
+*.pubxml.user
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# .NET Core
+project.assets.json
+*.runtimeconfig.dev.json
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# DotCover
+*.dotCover
+
+# Benchmark
+BenchmarkDotNet.Artifacts/
+
+# Test results
+TestResults/
+*.trx
+
+# Coverlet
+coverage/
+coverage*.json
+coverage*.xml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Database files (optional - if using local db)
+*.db
+*.sqlite
+*.sqlite3
