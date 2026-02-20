@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Cointhi.Api/Cointhi.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/CointhiUseCases.Test/CointhiUseCases.Test.csproj" Id="2b36ff10-ebef-4745-900c-d86556c263ba" />
+  </Folder>
+</Solution>
